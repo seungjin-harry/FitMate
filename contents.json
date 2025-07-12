@@ -1,0 +1,20 @@
+{
+    "contents": [
+        {
+            "type": "photo",
+            "category": "운동",
+            "path": "contents/workout1.jpg",
+            "createdBy": "관리자",
+            "status": "approved",
+            "createdAt": "2024-03-19T10:00:00Z"
+        },
+        {
+            "type": "photo",
+            "category": "식단",
+            "path": "contents/diet1.jpg",
+            "createdBy": "관리자",
+            "status": "approved",
+            "createdAt": "2024-03-19T10:30:00Z"
+        }
+    ]
+}
