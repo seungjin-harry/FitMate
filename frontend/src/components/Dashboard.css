@@ -1,0 +1,103 @@
+.dashboard {
+  padding: 2rem;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  color: #333;
+}
+
+.date-range {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.date-range input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.stat-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.social-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1rem;
+}
+
+.platform-stat {
+  text-align: center;
+}
+
+.platform-stat h4 {
+  margin: 0 0 0.5rem 0;
+  color: #666;
+}
+
+.failed-list, .github-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.failed-item, .github-item {
+  padding: 0.8rem;
+  border-bottom: 1px solid #eee;
+}
+
+.failed-item:last-child, .github-item:last-child {
+  border-bottom: none;
+}
+
+.error-reason {
+  color: #dc3545;
+  font-size: 0.9rem;
+  margin: 0.3rem 0 0 0;
+}
+
+.github-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.github-item a:hover {
+  text-decoration: underline;
+} 
